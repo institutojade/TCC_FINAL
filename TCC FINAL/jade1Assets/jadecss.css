@@ -416,7 +416,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     body {
-        width: 490px;
+        width: 486px;
     }
     .card {
         display: block;
@@ -450,11 +450,15 @@ footer {
     }
     footer {
         padding-left: 100%;
-        width: 100%;
+        width: 98%;
         margin: center;
     }
     .carousel {
         width: 100%;
-        margin-left: 25px;
+        margin-left: 0px;
+    }  
+    .slide-image {
+        width: 1px;
+        height: 490px;
     }
 }
